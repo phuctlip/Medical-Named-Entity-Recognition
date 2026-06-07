@@ -9,16 +9,13 @@
 - PhoBERT-Large làm encoder trích xuất đặc trưng ngữ nghĩa
 - Window Graph + GATv2 mô hình hóa quan hệ cục bộ giữa các token
 - Transformer Decoder tăng cường ngữ cảnh hai chiều
-- CRF đảm bảo chuỗi nhãn BIO hợp lệ khi decode
+- CRF đảm bảo chuỗi nhãn BIO hợp lệ 
 - Class-weighted CE Loss để tăng độ nhạy với nhãn hiếm (CAUSE, ...)
 
-## Nhãn
-
-`DISEASE` · `SYMPTOM` · `DRUG` · `CAUSE` · `TREATMENT` · ...
 
 ## Môi trường
 
-Toàn bộ pipeline được phát triển và huấn luyện trên **Google Colab** (GPU T4/A100).  
+Toàn bộ pipeline được phát triển và huấn luyện trên **Google Colab** (GPU T4).  
 Dữ liệu và checkpoint lưu trên **Google Drive**, không cần cài đặt local.
 
 ```python
