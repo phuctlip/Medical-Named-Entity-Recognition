@@ -10,7 +10,6 @@
 - Window Graph + GATv2 mô hình hóa quan hệ cục bộ giữa các token
 - Transformer Decoder tăng cường ngữ cảnh hai chiều
 - CRF đảm bảo chuỗi nhãn BIO hợp lệ 
-- Class-weighted CE Loss để tăng độ nhạy với nhãn hiếm (CAUSE, ...)
 
 
 ## Môi trường
